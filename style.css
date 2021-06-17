@@ -249,6 +249,7 @@ nav .nama h1{
     margin-bottom: 8px;
     color: #3a97fa;
     font-weight: bold;
+    margin-left: -10px;
 }
 .activiti p{
     font-size: 14px;
@@ -333,7 +334,7 @@ nav .nama h1{
 }
 /* animasi bola */
 .animasibola{
-    margin-left: -90px;
+    margin-left: -60px;
     align-self: center;
     width: 80px;
     height: 120px;
@@ -468,13 +469,15 @@ nav .nama h1{
 
 /* profil */
 .profil1{
-    padding: 20px;
     margin-top: 80px;
+    padding: 10px;
+}
+.profil1 .isi{
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10px 10px 190px 15px;
     justify-items: center;
-    row-gap: 10px;
+    row-gap: 15px;
     align-items: center;
 }
 .profil1 h5{
@@ -482,23 +485,24 @@ nav .nama h1{
     font-weight: bold;
     font-family: sans-serif;
     color: #3a97fa;
-    margin-bottom: 10px;
+    line-height: 26px;
+    text-align: center;
 }
-.profil1 p:first-of-type{
+.profil1 .isi p:first-of-type{
     font-size: 14px;
     color: #999;
     font-family: sans-serif;
 }
-.profil1 .img{
+.profil1 .isi .img{
     width: 160px;
     height: 160px;
     border-radius: 50%;
     overflow: hidden;
 }
-.profil1 .img img{
+.profil1 .isi .img img{
     height: 100%;
 }
-.profil1 p:nth-of-type(2){
+.profil1 .isi p:nth-of-type(2){
     font-size: 18px;
     font-family: sans-serif;
     font-weight: bold;
@@ -509,10 +513,10 @@ nav .nama h1{
     color: #999;
     font-size: 18px;
 }
-.profil1 p:last-of-type a:first-of-type{
+.profil1 .isi p:last-of-type a:first-of-type{
     margin-right: 20px;
 }
-.profil1 p:first-of-type a:last-of-type{
+.profil1 .isi p:first-of-type a:last-of-type{
     margin-left: 20px;
 }
 /* comment */
