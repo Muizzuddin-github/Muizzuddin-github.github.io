@@ -616,7 +616,6 @@ nav .nama h1{
 .contact .geser .profil{
     border-radius: 50%;
     width: 80px;
-    border: 1px solid;
     height: 80px;
     overflow: hidden;
     transition: all 0.3s;
