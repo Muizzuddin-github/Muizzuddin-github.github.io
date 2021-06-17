@@ -476,6 +476,7 @@ nav .nama h1{
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 10px 190px 10px 10px;
     justify-items: center;
     row-gap: 15px;
     align-items: center;
